@@ -131,12 +131,12 @@ const readChangeLog = () => {
             fs.writeFileSync('./CHANGELOG.md', newChangelog , {encoding : 'utf-8'})
 
             try{
-                executeGitCommand(`git checkout -b release/${version}`)
-                executeGitCommand(`git add .`)
-                executeGitCommand(`git commit -m Release ${version}`)
-                executeGitCommand(`git tag ${version}`)   
-                executeGitCommand(`git push origin release/${version}`)
-                console.log('\x1b[32m%s\x1b[0m', `✅ Release Concluída `)
+               // executeGitCommand(`git checkout -b release/${version}`)
+               // executeGitCommand(`git add .`)
+               // executeGitCommand(`git commit -m Release ${version}`)
+               // executeGitCommand(`git tag ${version}`)   
+               // executeGitCommand(`git push origin release/${version}`)
+               // console.log('\x1b[32m%s\x1b[0m', `✅ Release Concluída `)
             }catch(e){
 
             }
