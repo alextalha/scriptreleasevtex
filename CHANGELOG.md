@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+ - Atualizado a shelf
+ - Bug Fix
+ - Melhorias na Home
+ - Atualizações  Maneiras
+### Fixed
+ - Probleminas para resolver
+ - Coisas para fazer
+ - Essa parada ae
+ - ta legal
+
 ## [1.0.4] - 2021-12-1
 ### Added
  - Atualizado a shelf
