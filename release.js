@@ -136,6 +136,7 @@ const readChangeLog = () => {
                 executeGitCommand(`git commit -m "Release ${version}"`)
                 executeGitCommand(`git tag ${version}`)   
                 executeGitCommand(`git push origin release/${version}`)
+                executeGitCommand(`git push origin ${version}`)   
                 console.log('\x1b[32m%s\x1b[0m', `✅ Release Concluída `)
             }catch(e){
 
