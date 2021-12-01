@@ -1,6 +1,6 @@
 {
   "name": "deployscript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "console-error": "0.0.4",
+    "console-info": "0.0.5",
+    "console-warn": "0.0.4",
+    "edit-json-file": "^1.6.2",
+    "prompt-confirm": "^2.0.4"
+  },
+  "dependencies": {}
 }
